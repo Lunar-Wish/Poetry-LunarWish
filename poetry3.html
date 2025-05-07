@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Echo of a Serenade Under Starry Night</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="BackgroundMusic.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="poetry-page container">
+        <h1>Echo of a Serenade Under Starry Night</h1>
+        <button onclick="window.location.href='index.html'">Back to Home</button>
+
+        <div class="poetry-text">
+            <p class="line">I play for you,<br>But you won’t hear.</p>
+
+            <p class="line">I’m not even sure<br>if you’d feel it.</p>
+
+            <p class="line">The silence is suffocating,<br>I’m choking on all the words<br>I never said,</p>
+
+            <p class="line">Every chord I can’t play,<br>Every note that breaks me in half.</p>
+
+            <p class="line">This melody?<br>It’s just me spilling myself out,<br>Hoping somehow<br>you’ll hear the chaos<br>In every strum.</p>
+
+            <p class="line">But I don’t think you will.</p>
+
+            <p class="line">I’m chasing ghosts<br>of what we were,<br>What we could’ve been —<br>And it’s killing me.</p>
+
+            <p class="line">This melody<br>is all the things left unsaid,<br>The distance<br>that feels like a fucking ocean.</p>
+
+            <p class="line">I play and play,<br>But the echo only comes back empty.</p>
+
+            <p class="line">The more I strum,<br>The more I realize —<br>You’re not even listening.</p>
+
+            <p class="line">When my guitar goes quiet,<br>The universe<br>will still hold onto it,</p>
+
+            <p class="line">But it doesn’t matter.</p>
+
+            <p class="line">This melody?<br>It never ends,<br>It just keeps haunting me.</p>
+
+            <p class="line">I’ll keep playing,<br>Because what else do I have?</p>
+
+            <p class="line">Even if you never feel it,<br>I’ll bleed these strings<br>until there’s nothing left of me.</p>
+        </div>
+    </div>
+
+    <script>
+        gsap.from(".line", {duration: 1, opacity: 0, y: 50, stagger: 0.5});
+    </script>
+</body>
+</html>

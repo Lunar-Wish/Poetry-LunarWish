@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Cage and the Sky</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="BackgroundMusic.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="poetry-page container">
+        <h1>The Cage and the Sky</h1>
+        <button onclick="window.location.href='index.html'">Back to Home</button>
+
+        <div class="poetry-text">
+            <p class="line">They told me<br>to clip my wings,<br>because cages<br>are safer<br>than skies.</p>
+
+            <p class="line">They gave me rules,<br>like iron bars.<br>“Don’t fly too far,<br>you’ll forget home.”</p>
+
+            <p class="line">But what if home<br>was never<br>a place with walls?</p>
+
+            <p class="line">What if home<br>was always the sky<br>I was told to fear?</p>
+
+            <p class="line">The cage is quiet,<br>yes —<br>but my heartbeat<br>was louder<br>when I dreamed<br>beyond it.</p>
+
+            <p class="line">I met her<br>beyond the bars.<br>She sang<br>of constellations<br>I never knew existed.</p>
+
+            <p class="line">Her voice cracked<br>my cage —<br>not to break me,<br>but to show me<br>I could leave anytime.</p>
+
+            <p class="line">“Stay safe,”<br>they said.<br>“Stay known.”</p>
+
+            <p class="line">But her eyes whispered —<br>“Stay free.”</p>
+
+            <p class="line">I chose her,<br>and with her,<br>I chose the risk<br>of flight.</p>
+
+            <p class="line">We soared<br>even when winds<br>tore our feathers.</p>
+
+            <p class="line">Even when distance<br>dragged us apart,<br>the sky<br>was never cruel.</p>
+
+            <p class="line">It only reminded us —<br>Wings were made<br>to carry stories,<br>not to rot<br>in golden cages.</p>
+
+            <p class="line">Now when they ask —<br>“Do you miss the cage?”</p>
+
+            <p class="line">I smile.<br>Because even alone<br>in this vast sky,<br>I carry her echo<br>in every sunrise.</p>
+
+            <p class="line">And maybe<br>that’s what flight means:<br>Leaving the cage<br>but never losing<br>the song<br>that freed you.</p>
+        </div>
+    </div>
+
+    <script>
+        gsap.from(".line", {duration: 1, opacity: 0, y: 50, stagger: 0.5});
+    </script>
+</body>
+</html>
